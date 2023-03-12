@@ -18,6 +18,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script>
+        const authUser = @json(Auth::user()); //for the use of global in all blade and js files
+    </script>
 </head>
 <body class="bg-dark">
     <div id="app">
